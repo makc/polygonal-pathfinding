@@ -1,0 +1,30 @@
+{
+  "name": "polygonal-pathfinding",
+  "version": "0.1.0",
+  "description": "haXe pathfinder by Michael Baczynski.",
+  "type": "module",
+  "main": "./pathfinding.js",
+  "module": "./pathfinding.js",
+  "scripts": {
+    "test": "node ./test-node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makc/polygonal-pathfinding.git"
+  },
+  "files": [
+    "package.json",
+    "pathfinding.js"
+  ],
+  "keywords": [
+    "a*",
+    "polygonal",
+    "pathfinding"
+  ],
+  "author": "makc",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/makc/polygonal-pathfinding/issues"
+  },
+  "homepage": "https://makc.github.io/polygonal-pathfinding/"
+}
