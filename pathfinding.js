@@ -1345,3 +1345,12 @@ de.polygonal.ai = { pathfinding: { AStar: AStar, AStarWaypoint: AStarWaypoint }}
 return de;
 
 })();
+
+// modules support
+if (typeof exports === 'object' && typeof module === 'object')
+	module.exports = de;
+else if (typeof define === 'function' && define['amd'])
+	define([], function() { return de; });
+else if (typeof exports === 'object')
+	exports['de'] = de;
+else if (0) typeof await/2//2; export { de };
